@@ -1,0 +1,37 @@
+.outerContainer{
+    /* border: 2px solid red; */
+    height: 150vh;
+    width: 100%;
+    background-image: url('../assets//img//2171030.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    /* margin: 0; */
+}
+
+/* @media screen and (max-width: 800px){
+    .outerContainer{
+        height: 77vh;
+    }
+} */
+
+@media screen and (max-width: 1024px){
+    .outerContainer{
+        height: 90vh;
+    }
+}
+@media screen and (max-width: 834px){
+    .outerContainer{
+        height: 60vh;
+    }
+}
+@media screen and (max-width: 800px){
+    .outerContainer{
+        height: 60vh;
+    }
+}
+
+
+
+

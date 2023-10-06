@@ -1,0 +1,151 @@
+.outerDiv{
+    width: 80%;
+    height: 70vh;
+    /* border: 2px solid black; */
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.divOne{
+    height: 80%;
+    width: 50%;
+    /* border: 2px solid green; */
+    margin-top: 5%;
+    padding: 5px 0px 0px 60px;
+}
+.divOne h1{
+    color: #343a40;
+    font-weight: 2rem;
+    margin-bottom: 20px;
+}
+.divOne h1 span{
+    color: blue;
+}
+.divOne p{
+    color: #868e96;
+}
+.usersDiv{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.divTwo{
+    width: 47%;
+    height: inherit;
+    background-color:#e9ecef;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.divTwo img{
+    height: 120%;
+    width: 260%;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px){
+    .outerDiv{
+        width: 90%;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 834px){
+    .outerDiv{
+        width: 90%;
+        height: 30vh;
+    }
+    .divOne h1{
+        font-size: 1.5rem;
+    }
+    .divOne p{
+        font-size: 1rem;
+    }
+    .usersDiv div h1{
+        font-size: 1.5rem;
+        margin-bottom: 0px;
+    }
+    .usersDiv div p{
+        font-size: 0.8rem;
+        margin-top: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+    .outerDiv{
+        width: 90%;
+        height: 30vh;
+    }
+    .divOne h1{
+        font-size: 1.5rem;
+    }
+    .divOne p{
+        font-size: 1rem;
+    }
+    .usersDiv div h1{
+        font-size: 1.5rem;
+        margin-bottom: 0px;
+    }
+    .usersDiv div p{
+        font-size: 0.8rem;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .outerDiv{
+        width: 90%;
+        height: 30vh;
+    }
+    .divOne{
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+    .divOne h1{
+        font-size: 1.3rem;
+    }
+    .divOne p{
+        font-size: 0.8rem;
+    }
+    .usersDiv div h1{
+        font-size: 1.3rem;
+        margin-bottom: 0px;
+    }
+    .usersDiv div p{
+        font-size: 0.8rem;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .outerDiv{
+        width: 90%;
+        height: auto;
+    }
+    .divOne{
+        padding-left: 10px;
+        padding-top: 0px;
+        width: 100%;
+    }
+    .divTwo{
+        width: 100%;
+        height: 300px;
+    }
+    .divOne h1{
+        font-size: 1.3rem;
+    }
+    .divOne p{
+        font-size: 0.8rem;
+    }
+    .usersDiv div h1{
+        font-size: 1.3rem;
+        margin-bottom: 0px;
+    }
+    .usersDiv div p{
+        font-size: 0.8rem;
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,242 @@
+.outerDiv{
+    height: 300px;
+    width: 85%;
+    /* border: 2px solid white; */
+    margin: 70px auto;
+    display: flex;
+}
+.divOne{
+    height: inherit;
+    width: 60%;
+    /* border: 2px solid gray; */
+}
+.divOne p{
+    font-size: 4rem;
+    color: white;
+    word-spacing: 5px;
+    /* margin: 20px 0px 0px 30px; */
+    letter-spacing: 1px;
+    line-height: 5rem;
+}
+.divTwo{
+    height: inherit;
+    width: 40%;
+    /* border: 2px solid green; */
+    position: relative;
+}
+.divTwo p{
+    text-align: right;
+    /* margin: 20px 30px 0px 0px; */
+    color: lightgray;
+    margin-right: 40px;
+    word-spacing: 5px;
+    line-height: 1.9;
+    font-size: 1rem;
+    
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 30px;
+    border: none;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+#appleDownload{
+    position: absolute;
+    right: 30px;
+    bottom: 130px;
+    background-color: white;
+}
+#appleDownload:hover{
+    background-color: lightgray;
+}
+#playDownload{
+    position: absolute;
+    right: 30px;
+    bottom: 45px;
+    background-color: inherit;
+    border: 2px solid white;
+    color: white;
+}
+#playDownload:hover{
+    background-color: midnightblue;
+}
+.btnImgDiv{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.btnImgDiv img{
+    height: inherit;
+    width: inherit;
+}
+
+
+/* media query */
+
+@media screen and (max-width: 1024px){
+    .outerDiv{
+        margin-top: 40px;
+    }
+    .divOne p{
+        font-size: 3.3rem;
+    }
+    #appleDownload{
+        bottom: 100px;
+    }
+    #playDownload{
+        bottom: 20px;
+    }
+    
+}
+@media screen and (max-width: 834px){
+    .outerDiv{
+        margin-top: 20px;
+    }
+    .divOne p{
+        font-size: 2.5rem;
+    }
+    #appleDownload{
+        bottom: 100px;
+    }
+    #playDownload{
+        bottom: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+    .outerDiv{
+        margin-top: 20px;
+    }
+    .divOne p{
+        font-size: 3rem;
+    }
+    #appleDownload{
+        bottom: 100px;
+    }
+    #playDownload{
+        bottom: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .outerDiv{
+        margin-top: 10px;
+    }
+    .divOne p{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .divTwo p{
+        font-size: 0.7rem;
+    }
+    #appleDownload{
+        bottom: 140px;
+    }
+    #playDownload{
+        bottom: 60px;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .outerDiv{
+        margin-top: 10px;
+        position: relative;
+    }
+    .divOne p{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .divTwo p{
+        font-size: 0.7rem;
+    }
+    #appleDownload{
+        bottom: 60px;
+        right: 240px;
+    }
+    #playDownload{
+        bottom: 60px;
+    }
+    .divTwo{
+        position:static;
+    }
+    
+}
+
+
+@media screen and (max-width: 414px){
+    .outerDiv{
+        margin-top: 10px;
+        position: relative;
+        /* margin-bottom: 50px; */
+    }
+    .divOne p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        
+    }
+    .divTwo p{
+        font-size: 0.7rem;
+        line-height: 1rem;
+        margin-right: 0px;
+    }
+    #appleDownload{
+        bottom: 130px;
+        right: 180px;
+    }
+    #playDownload{
+        bottom: 130px;
+        right: 0px;
+    }
+    .divTwo{
+        position:static;
+    }
+    .btn{
+        height: 3rem;
+        width: 10rem;
+    }
+    
+}
+
+@media screen and (max-width: 385px){
+    .outerDiv{
+        margin-top: 10px;
+        position: relative;
+    }
+    .divOne p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        
+    }
+    .divTwo p{
+        font-size: 0.7rem;
+        line-height: 1rem;
+        margin-right: 0px;
+    }
+    #appleDownload{
+        bottom: 130px;
+        right: 160px;
+    }
+    #playDownload{
+        bottom: 130px;
+        right: 0px;
+    }
+    .divTwo{
+        position:static;
+    }
+    .btn{
+        height: 3rem;
+        width: 8rem;
+    }
+    .btn span{
+        font-size: 0.7rem;
+    }
+    
+}

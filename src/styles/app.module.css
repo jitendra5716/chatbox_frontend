@@ -1,0 +1,11 @@
+.outerDiv{
+    /* padding: 40px; */
+    /* border: 3px solid red; */
+}
+
+@media screen and (max-width: 750px){
+    .outerDiv{
+        margin: 0px;
+        padding: 0px;
+    }
+}

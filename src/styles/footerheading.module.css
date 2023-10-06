@@ -1,0 +1,38 @@
+.outerDiv{
+    height: 70vh;
+    width: 100%;
+    background-color: blue;
+    padding: 60px 50px 0px 50px;
+    overflow: hidden;
+}
+.innerDiv{
+    height: 180%;
+    width: 90%;
+    margin: 0px auto;
+    background-image: url('../assets//img//chatimg.png');
+    background-size: contain;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 1024px){
+    .outerDiv{
+        height: 40vh;
+    }
+}
+@media screen and (max-width: 834px){
+    .outerDiv{
+        height: 26vh;
+    }
+}
+@media screen and (max-width: 800px){
+    .outerDiv{
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .outerDiv{
+        height: 30vh;
+    }
+}
+

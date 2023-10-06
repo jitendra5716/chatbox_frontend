@@ -1,0 +1,113 @@
+.innerDiv{
+    height: 600px;
+    width: 90%;
+    margin: -29% auto 0px;
+    /* border: 2px solid green; */
+    background-image: url('../assets//img//chatimg.png');
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.listDiv{
+    /* min-height: 150px; */
+    max-height: auto;
+    height: auto;
+    width: 100%;
+    margin: 50px auto 20px;
+    /* border: 2px solid black; */
+    /* background-color: #f1f3f5; */
+}
+.listDiv ul{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 0px;
+    flex-wrap: wrap;
+}
+.listDiv ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.listDiv ul li span{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #495057;
+}
+.listDiv ul li div{
+    height: 30px;
+    width: 30px;
+    margin: 0px 10px;
+}
+.listDiv ul li div img{
+    height: inherit;
+    width: inherit;
+}
+
+
+/* media Query */
+@media screen and (max-width: 1024px)and (min-width:834px){
+    
+    .innerDiv{
+        /* height: 300px; */
+        /* margin-top: -%; */
+        margin-top: -26%;
+    }
+}
+@media screen and (max-width: 834px)and (min-width:800px){
+    
+    .innerDiv{
+        /* height: 300px; */
+        /* margin-top: -%; */
+        margin-top: -30%;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 800px)and (min-width:600px){
+    
+    .innerDiv{
+        /* height: 300px; */
+        /* margin-top: -%; */
+        margin-top: -20%;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 600px)and (min-width:414px){
+    
+    .innerDiv{
+        /* height: 300px; */
+        /* margin-top: -%; */
+        margin-top: -36%;
+        height: 400px;
+    }
+    .listDiv ul li span{
+        font-size: 1rem;
+    }
+    .listDiv{
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 414px){
+    
+    .innerDiv{
+        /* height: 300px; */
+        /* margin-top: -%; */
+        margin-top: -20%;
+        height: 400px;
+    }
+    .listDiv ul li span{
+        font-size: 1rem;
+    }
+    .listDiv{
+        margin: 0px;
+    }
+}
